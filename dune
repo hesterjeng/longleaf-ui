@@ -1,3 +1,0 @@
-(melange.emit
- (target app)
- (libraries longleaf_ui_lib))

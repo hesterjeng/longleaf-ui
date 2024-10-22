@@ -1,5 +1,6 @@
-(library
- (name longleaf_ui_lib)
- (modes melange)
+(melange.emit
+ (target app)
+ (libraries reason-react)
  (preprocess
-  (pps melange.ppx)))
+  (pps melange.ppx))
+ (module_systems es6))
