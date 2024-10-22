@@ -11,4 +11,4 @@ let create_line_plot () =
   let y = [ 0; 1; 2; 3; 4; 5 ] |> Array.of_list in
   let data : data = { x; y; type_ = "scatter" } in
   let layout = { title = "Line Plot" } in
-  new_plot "myDiv" [| data |] layout
+  new_plot "myDiv" [| data |] layout [@react.component]
